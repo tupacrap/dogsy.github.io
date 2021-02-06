@@ -15,7 +15,7 @@ img {
 }
 .main {
 	
-	max-width: 1920px; 
+	max-width: 100%; 
 	margin: 0 auto;
 
 }
@@ -40,7 +40,7 @@ img {
 .pozeCatei {
 	
 	display: flex;
-	max-width: 1920px;
+	max-width: 100%;
 	align-items: center;
 	margin: 0;
 	flex-wrap: wrap;
@@ -147,7 +147,7 @@ a:hover {
 
 
 .footer {
-	max-width: 1920px;
+	max-width: 100%;
 	background-color:  rgba(243, 243, 217, 0.384);
 	border: 1px solid rgba(243, 243, 217, 0.384);
 	border-top: none;
