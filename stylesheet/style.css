@@ -134,10 +134,12 @@ nav li a {
 	text-align: center; 
 
 }
-
+@media (hover: hover) and (pointer: fine) {
 a:hover { 
 	background: rgba(224, 80, 80, 0.75); 
 	}
+}
+
 
 .footer {
 	max-width: 1920px;
