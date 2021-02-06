@@ -1,0 +1,155 @@
+html {
+	background: url(../imgs/v2-1c63ef97e720bbce2a1c3a5f5f5ecd73_720w.jpg) no-repeat fixed;
+	background-size: cover;
+	height: 100%;
+	
+}
+
+* {
+	box-sizing: border-box;
+}
+img {
+	height: 100%;
+	width: auto;
+	
+}
+.main {
+	
+	max-width: 1920px; 
+	padding: 50px;
+	margin: 0 auto;
+	
+
+}
+
+
+
+.continut {
+
+	border: 1px solid rgba(243, 243, 217, 0.384); 
+	background-color: rgba(243, 243, 217, 0.384);
+	padding: 0;
+	margin: 0;
+	display: flex;
+	
+
+
+}
+
+.pozeCatei {
+	
+	display: flex;
+	max-width: 1920px;
+	align-items: center;
+	margin: 0;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 10px;
+	padding: 30px 0;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5 {
+	width: 150px;
+	height: 100px;
+	margin: 5px;
+	
+
+}
+.pic1 {
+	background: url(../imgs/1800x1200_dog_cool_summer_other.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.pic2 {
+
+	background: url(../imgs/AdobeStock_190562703.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pic3 {
+
+	background: url(../imgs/download.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pic4 {
+
+	background: url(../imgs/images.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pic5 {
+
+	background: url(../imgs/v2-1c63ef97e720bbce2a1c3a5f5f5ecd73_720w.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.col {
+	flex: 1;
+	padding-left: 20px;
+}
+.col1 {
+	flex: 1;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navigatie {
+
+	text-align: center;
+	margin-bottom: 10px;
+	background-color:rgba(243, 243, 217, 0.384);
+	
+	
+}
+.navigatie ul {
+	border: 1px solid rgba(243, 243, 217, 0.384); 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	display: flex; 
+}
+
+li {
+	list-style-type: none;
+	flex: 3;
+}
+
+nav li a {
+	
+	color: white; 
+	font-weight: 300; 
+	letter-spacing: 2px; 
+	text-decoration: none; 
+	background: rgba(73, 23, 23, 0.671); 
+	padding: 20px 0px; 
+	display: inline-block; 
+	width: 100%; 
+	text-align: center; 
+
+}
+
+a:hover { 
+	background: rgba(224, 80, 80, 0.75); 
+	}
+
+.footer {
+	max-width: 1920px;
+	background-color:  rgba(243, 243, 217, 0.384);
+	border: 1px solid rgba(243, 243, 217, 0.384);
+	border-top: none;
+	height: 30px;
+	display: flex;
+}
+.footerY {
+	margin: auto;
+	
+}
+
