@@ -1,5 +1,5 @@
 html {
-	background: url(../imgs/mountain-dog.jpg) no-repeat fixed center center;
+	background: url(../imgs/AdobeStock_190562703.jpg) no-repeat fixed center center;
 	background-size: cover;
 	height: 100%;
 	
@@ -17,10 +17,12 @@ img {
 	
 	max-width: 1920px; 
 	margin: 0 auto;
-	
 
 }
 
+.subHeader {
+	background-color: rgba(243, 243, 217, 0.384) ;
+}
 
 
 .continut {
