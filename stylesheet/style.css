@@ -44,7 +44,7 @@ img {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin-bottom: 10px;
-	padding: 30px 0;
+	padding: 10px 0;
 }
 
 .pic1,
@@ -99,17 +99,20 @@ img {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
+.header {
+	
+}
 .navigatie {
-
+	width: 60%;
+	margin: 40px auto;
 	text-align: center;
 	margin-bottom: 10px;
-	background-color:rgba(243, 243, 217, 0.384);
+	background-color:rgba(245, 204, 143, 0.616);
 	
 	
 }
 .navigatie ul {
-	border: 1px solid rgba(243, 243, 217, 0.384); 
+	border: 1px solid rgba(243, 204, 96, 0.616); 
 	list-style: none; 
 	margin: 0; 
 	padding: 0; 
@@ -123,12 +126,12 @@ li {
 
 nav li a {
 	
-	color: white; 
+	color: rgba(255, 255, 255, 0.829); 
 	font-weight: 300; 
 	letter-spacing: 2px; 
 	text-decoration: none; 
-	background: rgba(73, 23, 23, 0.671); 
-	padding: 20px 0px; 
+	background: rgba(223, 164, 37, 0.616); 
+	padding: 10px 0px; 
 	display: inline-block; 
 	width: 100%; 
 	text-align: center; 
