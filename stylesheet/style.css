@@ -3,10 +3,12 @@ html {
 	background-size: cover;
 	height: 100%;
 	
+	
 }
 
 * {
 	box-sizing: border-box;
+	
 }
 img {
 	height: 100%;
@@ -17,11 +19,19 @@ img {
 	
 	max-width: 100%; 
 	margin: 0 auto;
+	padding: 10px;
+	
+}
 
+body {
+	margin-bottom: 20px;
 }
 
 .subHeader {
 	background-color: rgba(243, 243, 217, 0.384) ;
+	box-shadow: 10px 5px 5px rgba(90, 67, 18, 0.247), inset 2px 2px 5px rgba(255, 255, 255, 0.829) ;
+	border-radius: 10px;
+	
 }
 
 
@@ -32,6 +42,7 @@ img {
 	padding: 0;
 	margin: 0;
 	display: flex;
+	
 	
 
 
@@ -47,6 +58,7 @@ img {
 	justify-content: space-around;
 	margin-bottom: 10px;
 	padding: 10px 0;
+
 }
 
 .pic1,
@@ -57,6 +69,7 @@ img {
 	width: 150px;
 	height: 100px;
 	margin: 5px;
+	box-shadow: 5px 5px 5px rgba(51, 38, 11, 0.479), inset 2px 2px 5px rgba(255, 255, 255, 0.829) ;
 	
 
 }
@@ -109,7 +122,11 @@ img {
 	margin: 40px auto;
 	text-align: center;
 	margin-bottom: 10px;
-	background-color:rgba(245, 204, 143, 0.616);
+	background: rgba(223, 164, 37, 0.616);
+	box-shadow: 5px 5px 5px rgba(51, 38, 11, 0.479), inset 2px 2px 5px rgba(255, 255, 255, 0.829) ;
+	border-radius: 10px;
+	
+	
 	
 	
 }
@@ -118,12 +135,16 @@ img {
 	list-style: none; 
 	margin: 0; 
 	padding: 0; 
-	display: flex; 
+	display: flex;
+	border-radius: 10px;
+	
 }
 
 li {
 	list-style-type: none;
 	flex: 3;
+	 
+	border-radius: 10px;
 }
 
 nav li a {
@@ -132,11 +153,15 @@ nav li a {
 	font-weight: 300; 
 	letter-spacing: 2px; 
 	text-decoration: none; 
-	background: rgba(223, 164, 37, 0.616); 
+	 
 	padding: 10px 0px; 
-	display: inline-block; 
+	display: inline-block;
 	width: 100%; 
 	text-align: center; 
+	border-radius: 10px;
+	
+
+	
 
 }
 @media (hover: hover) and (pointer: fine) {
@@ -148,14 +173,24 @@ a:hover {
 
 .footer {
 	max-width: 100%;
-	background-color:  rgba(243, 243, 217, 0.384);
 	border: 1px solid rgba(243, 243, 217, 0.384);
 	border-top: none;
 	height: 30px;
 	display: flex;
+	border-radius: 10px;
+
+	
 }
 .footerY {
 	margin: auto;
 	
 }
 
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
